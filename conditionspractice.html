@@ -30,6 +30,23 @@
         //  }
 
         
+        //  leap year-----------------------
+        let a=prompt("enter a number")
+        a=parsIent(a)
+
+        if(a%4 ==0){
+            if(a%100 ==0){
+                if(a%400 ==0){
+                    document.write("number ia a leap year")
+                }else{
+                    document.write("number is not a leap year")
+                }
+            }else{
+                document.write("number is a leap year")
+            }
+        }else{
+            document.write("number is not a leap year")
+        }
 
 
 
